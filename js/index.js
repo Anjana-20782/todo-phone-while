@@ -53,5 +53,19 @@ while(true)
         alert(str)
     }
 
+    else if(input==="3")
+    {
+       str=``
+        for(let todo of contacts)
+        {
+          str+=`[${todo.id}] \n ${todo.name} \n ${todo.phone}`
+        }
+        let del=prompt( `${str} \n Enter id delete the content...`)
+        contacts.splice(del -1,1)
+    }
+
+
+
+ 
     
 }

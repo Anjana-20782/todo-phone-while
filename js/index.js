@@ -65,6 +65,10 @@ while(true)
     }
 
 
+      else if(input=="5"){
+        break
+    }
+    else("Invalid entry try again")
 
  
     

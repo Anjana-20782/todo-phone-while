@@ -43,4 +43,15 @@ while(true)
       
     }
 
+    else if(input==="2"){
+
+      str=``
+        for(let [index,todo] of contacts.entries())
+        {
+          str+=`[${index+1}]  \n ${todo.name} \n ${todo.phone} \n`
+        }
+        alert(str)
+    }
+
+    
 }
